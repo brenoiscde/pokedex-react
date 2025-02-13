@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.icon-pokeball{
+    width: 64px;
+    height: auto;
+}
+.icon-logo{
+    width: 256px;
+    height: auto;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: start;
+    margin-bottom: 16px;
+}
+.container__search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 16px;
+
+    input{
+        border: none;
+        outline: none;
+        margin-left: 10px;
+        width: 100%;
+        font-family: "Roboto", serif;
+        font-size: 18px;
+    }
+}
+.icon-search{
+    width: 16px;
+    height: auto;
+}
