@@ -1,0 +1,70 @@
+body{
+    background-color: #74CB48;
+}
+.bodyStatus{
+    position: relative;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0;
+    margin-top: 30px;
+}
+.nameStatus{
+    color: #fff;
+    font-size: 64px;
+}
+.idStatus{
+    color: #fff;
+    font-size: 32px;
+}
+.pokeball-bg{
+    opacity: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    top: 5px;
+    height: auto;
+}
+.arrowStatus{
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+.descriptionStatus{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.type{
+    display: flex;
+    gap: 20px;
+}
+.icons-weight{
+    display: flex;
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.weight, .height, .moves{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons-weight, .icons-height{
+    display: flex;
+    padding: 10px 25px;
+    border-right: 1px solid #E0E0E0;
+}
+.moves{
+    margin-left: 20px;
+}
+.textAbout{
+    font-size: 22px;
+}

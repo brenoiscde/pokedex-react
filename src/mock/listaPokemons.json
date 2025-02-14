@@ -5,39 +5,44 @@
         "name":"Bulbasaur"
     },
     {
-        "id": "#001",
+        "id": "#002",
         "urlimagem": "src/assets/ivysaur.webp",
-        "name":"Bulbasaur"
+        "name":"Ivysaur"
     },
     {
-        "id": "#001",
+        "id": "#003",
         "urlimagem": "src/assets/venosaur.png",
-        "name":"Bulbasaur"
+        "name":"Venusaur"
     }, 
     {
-        "id": "#001",
-        "urlimagem": "src/assets/bulbasaur.svg",
-        "name":"Bulbasaur"
+        "id": "#004",
+        "urlimagem": "src/assets/Charmander.webp",
+        "name":"Charmander"
     },
     {
-        "id": "#001",
-        "urlimagem": "src/assets/bulbasaur.svg",
-        "name":"Bulbasaur"
+        "id": "#005",
+        "urlimagem": "src/assets/charmeleon.png",
+        "name":"Charmeleon"
     },
     {
-        "id": "#001",
-        "urlimagem": "src/assets/bulbasaur.svg",
-        "name":"Bulbasaur"
+        "id": "#006",
+        "urlimagem": "src/assets/charizard.png",
+        "name":"Charizard"
     },
     {
-        "id": "#001",
-        "urlimagem": "src/assets/bulbasaur.svg",
-        "name":"Bulbasaur"
+        "id": "#007",
+        "urlimagem": "src/assets/squirtle.png",
+        "name":"Squirtle"
     },
     {
-        "id": "#001",
-        "urlimagem": "src/assets/bulbasaur.svg",
-        "name":"Bulbasaur"
+        "id": "#008",
+        "urlimagem": "src/assets/wartortle.png",
+        "name":"Wartortle"
+    },
+    {
+        "id": "#009",
+        "urlimagem": "src/assets/blastoise.png",
+        "name":"Wartortle"
     }
     
 ]

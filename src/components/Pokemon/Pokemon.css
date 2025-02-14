@@ -1,5 +1,5 @@
-
 .container__pokemon{
+    position: relative;
     background-color: #fff;
     padding: 10px 16px;
     border-radius: 16px;
@@ -8,6 +8,7 @@
     box-shadow: 1px 1px 7px #000000a1;
     transition: transform 0.3s ease;
     cursor: pointer;
+    z-index: 1;
 }
 .container__pokemon:hover{
     transform: scale(1.03);
@@ -17,17 +18,32 @@
     font-weight: 400;
     text-align: end;
     margin: 0;
+    z-index: 1;
 }
 .name-pokemon{
-    font-weight: 400;
-    margin: 0;
+    font-weight: 300;
+    margin: 0 0 7px 0;
+    z-index: 1;
 }
 .image-pokemon{
     width: 170px;
     height: auto;
+    z-index: 1;
 }
 .container__pokemon-pokemon-name{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
+}
+.footer{
+    position: absolute;
+    z-index:-1 ;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background-color: #E0E0E0;
+    bottom: 10px;
+    border-radius: 8px;
 }

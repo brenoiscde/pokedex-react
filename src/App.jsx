@@ -1,13 +1,11 @@
-import Header from './components/Header'
-import Pokedex from './components/Pokedex'
+import PokemonStatus from './components/PokemonStatus'
 
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <Pokedex/>
+      <PokemonStatus/>
     </>
   )
 }

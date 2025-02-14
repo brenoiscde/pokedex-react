@@ -9,6 +9,7 @@ const Pokemon = ()=>{
                     <img className="image-pokemon" src={pokemon.urlimagem} alt="" />
                     <h2 className="name-pokemon">{pokemon.name}</h2>
                 </div>
+                <div className="footer"></div>
             </div>
         ))
     );
