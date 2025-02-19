@@ -1,0 +1,11 @@
+[
+    {
+        "nameStatus": "Bulbasaur",
+        "idStatus":"#001",
+        "imagePokemon": "/src/assets/bulbasaur.svg",
+        "types":[
+            "Grass",
+            "Poison"
+        ]
+    }
+]
