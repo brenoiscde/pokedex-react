@@ -6,6 +6,16 @@
         "types":[
             "Grass",
             "Poison"
-        ]
+        ],
+        "color": "#74CB48"
+    },
+    {
+        "nameStatus": "Charmander",
+        "idStatus":"#001",
+        "imagePokemon": "/src/assets/Charmander.webp",
+        "types":[
+            "Fire"
+        ],
+        "color": "#F57D31"
     }
 ]

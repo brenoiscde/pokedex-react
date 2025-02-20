@@ -1,32 +1,36 @@
-body{
-    background-color: #74CB48;
-}
 .bodyStatus{
     position: relative;
 }
-.image-pokemon{
+
+.image-pokemon-status{
     width: 350px;
     height: auto;
     position: absolute;
-    top: 25%; 
+    top: 33%; 
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
+
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 0;
-    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.header__left{
+    display: flex;
+    gap: 30px;
 }
 .nameStatus{
     color: #fff;
     font-size: 64px;
+    max-width: 100%;
 }
 .idStatus{
     color: #fff;
     font-size: 32px;
+    margin-top: 50px;
 }
 .pokeball-bg{
     opacity: 20%;
@@ -50,15 +54,25 @@ body{
     align-items: center;
     border-radius: 16px;
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 150px 20px 20px 20px;
 }
-.type{
-    display: flex;
-    gap: 30px;
-}
+
 .icons-weight{
     display: flex;
+}
+
+.type span:first-child{
+    margin-right: 10px;
+}
+.type span{
+    color: #fff;
+    font-weight: 700;
+    padding: 4px 16px;
+    border-radius: 10px;
+}
+.spanAbout{
+    font-size: 32px;
 }
 .about{
     display: flex;
@@ -80,3 +94,4 @@ body{
 .textAbout{
     font-size: 22px;
 }
+
