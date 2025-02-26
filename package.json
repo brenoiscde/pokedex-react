@@ -11,8 +11,13 @@
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
+<<<<<<< HEAD
+=======
+    "@splidejs/splide": "^4.1.4",
+>>>>>>> 24b2670dcdf6998c4eea345f7af519b156bf2719
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
