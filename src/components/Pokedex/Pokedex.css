@@ -1,9 +1,8 @@
 .pokedex{
     display: flex;
     flex-wrap: wrap;
-    max-width:100%;
-    background: #fff;
     padding: 40px;
+    background: #fff;
     border-radius: 16px;
     margin-top: 35px;
     gap: 20px;

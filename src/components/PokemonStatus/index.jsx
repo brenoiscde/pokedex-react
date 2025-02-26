@@ -1,9 +1,18 @@
 import "./PokemonStatus.css";
-import listPokemonStatus from "/src/mock/listPokemonStatus.json"
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+
+import listPokemonStatus from "../../mock/listPokemonStatus.json"
 const PokemonStatus = () =>{
+    console.log(listPokemonStatus)
     return(
-        listPokemonStatus.map((pokemon)=> (
-            <div key={pokemon} className="bodyStatus">
+        /* Splide */
+        <Splide options={{
+            perPage: 1
+        }}>
+        {listPokemonStatus.map((pokemon)=> (
+            /* SplideSlide */
+            <SplideSlide>
+            <div key={pokemon.idStatus} className="bodyStatus">
                 <div className="header">
                     <div className="header__left">
                         <img className="arrowStatus" src="/src/assets/pokestatus/arrow_back.svg" alt="" />
@@ -12,7 +21,7 @@ const PokemonStatus = () =>{
                     <h4 className="idStatus">{pokemon.idStatus}</h4>
                 </div>
                 <img className="pokeball-bg" src="/src/assets/pokestatus/Pokeball-backgorund.svg" alt="" />
-                <img className="image-pokemon" src={pokemon.imagePokemon} alt="" />
+                <img className="image-pokemonStatus" src={pokemon.imagePokemon} alt="" />
                 <div className="descriptionStatus">
                     <div className="type">
                         {pokemon.types}
@@ -47,8 +56,9 @@ const PokemonStatus = () =>{
                         <h2>Base Stats</h2>
                     </div>
                 </div>
-            </div>
-        ) )
+            </div></SplideSlide>
+        ) )}
+        </Splide>
     )
 }
 

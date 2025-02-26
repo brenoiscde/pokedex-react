@@ -1,10 +1,7 @@
-body{
-    background-color: #74CB48;
-}
 .bodyStatus{
     position: relative;
 }
-.image-pokemon{
+.image-pokemonStatus{
     width: 350px;
     height: auto;
     position: absolute;

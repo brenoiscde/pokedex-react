@@ -1,4 +1,4 @@
-import "./Pokemon.css";
+import "./Pokemon.css"
 import listaPokemons from "/src/mock/listaPokemons.json";
 const Pokemon = ()=>{
     return (
